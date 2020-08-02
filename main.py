@@ -3,10 +3,10 @@ This project will scrape instagram (maybe more later) photos and descriptions
 """
 
 from src.instaScraper import Scraper
-from src.generate_to_download import *
+from src.generate_to_download import generate_accounts
 from src import *
 
-import getpass
+import getpass #lol, I love 21st century programming, whole library for password input
 
 
 def scrape():

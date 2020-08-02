@@ -23,10 +23,6 @@ import traceback
 import csv
 
 
-#TODO: if target already downloaded, SKIP
-#   This task is being moved to generate_accounts.py in versions after August 1, 2020
-#   see variable below ;)
-
 class Scraper:
 
     def __init__(self, username, password):
